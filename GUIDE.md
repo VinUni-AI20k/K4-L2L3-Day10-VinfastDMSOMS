@@ -1,5 +1,10 @@
 # GUIDE.md — Hướng dẫn gán nhãn Lab 10
 
+> ⚠️ **Nhắc lại NDA:** đây là dữ liệu độc quyền của VinFast mà bạn đã ký cam kết bảo mật từ đầu
+> khoá học. Chỉ gán nhãn bên trong CVAT — không tải ảnh về, không chụp màn hình, không chia sẻ ra
+> ngoài. Vi phạm đồng nghĩa vi phạm NDA và có thể dẫn đến trách nhiệm pháp lý cá nhân. Xem chi
+> tiết ở [README.md](README.md).
+
 ## Bước 1 — Đăng nhập CVAT
 
 1. Truy cập: **https://cvat.note.transformerlabs.ai**
