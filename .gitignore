@@ -1,0 +1,5 @@
+# Screenshots may contain real faces/personal data from the dataset -- never committed.
+*.png
+*.jpg
+*.jpeg
+.DS_Store

@@ -5,6 +5,9 @@ Chào các bạn học viên K4! Đây là bài lab gán nhãn dữ liệu thậ
 
 - **Bắt đầu tại đây:** [GUIDE.md](GUIDE.md) — hướng dẫn từng bước: đăng nhập, tìm 3 task của
   bạn, gán nhãn, lưu bài.
+- **Quy tắc gán nhãn chi tiết:** [LABEL_GUIDELINE.md](LABEL_GUIDELINE.md) — lớp nào cần gán cho
+  OMS, và **chiều trái/phải** cho từng task (DMS và OMS dùng quy ước ngược nhau — đọc kỹ trước
+  khi gán để tránh phải sửa lại toàn bộ).
 - **Cách chấm điểm:** [RUBRIC.md](RUBRIC.md) — công thức tính điểm 0–100 cho bài lab này.
 
 ## ⚠️ Lưu ý quan trọng — Bảo mật dữ liệu (NDA)
