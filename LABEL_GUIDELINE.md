@@ -74,12 +74,15 @@ phía **bên trái của sơ đồ**:
 
 ---
 
-## Phần 2 — Task DMS: 50 điểm landmark khuôn mặt
+## Phần 2 — Task DMS: 50 điểm landmark khuôn mặt + bbox `head`
 
 7 nhóm khung xương, tổng 50 điểm:
 
 `longmaytrai` (lông mày trái), `longmayphai` (lông mày phải), `songmui` (sống mũi), `mattrai`
 (mắt trái), `matphai` (mắt phải), `moingoai` (viền môi ngoài), `moitrong` (viền môi trong).
+
+**Ngoài 50 điểm, gán thêm 1 khung chữ nhật `head`** ôm sát toàn bộ đầu (từ đỉnh đầu/tóc đến cằm,
+đủ rộng hai bên) — mỗi khung hình chỉ có 1 khung `head` duy nhất (khuôn mặt của tài xế).
 
 ### ⚠️ Chiều gán cho DMS: theo chiều của BỨC ẢNH (ngược lại với OMS!)
 
@@ -98,7 +101,8 @@ suy luận thêm.
 Toạ độ 50 điểm thật lấy từ một khung hình đã gán nhãn thật, vẽ lại **trên nền trắng đúng kích
 thước khung hình gốc (1072×1072px)** — không phải ảnh chụp thật, không có gương mặt người thật
 nào trong hình. Chú ý nhóm `mattrai` (mắt trái) nằm bên **trái sơ đồ**, nhóm `matphai` (mắt phải)
-nằm bên **phải sơ đồ**:
+nằm bên **phải sơ đồ**. Khung nét đứt là vị trí ước lượng cho `head` (minh hoạ cách ôm khung, không
+phải toạ độ thật vì nhãn này mới thêm):
 
 ![DMS full frame diagram](images/dms_full_frame_diagram.svg)
 
