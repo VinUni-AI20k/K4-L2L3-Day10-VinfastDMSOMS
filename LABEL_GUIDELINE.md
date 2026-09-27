@@ -39,11 +39,6 @@ xuất hiện trong danh sách nhãn** (`infant`, `food`, `cigarette`, `bag`, `b
   gán người **ngồi trong xe**.
 - Vẽ khung ôm sát đúng vật thể, không để dư viền.
 
-**Sơ đồ minh hoạ** (toạ độ khung thật lấy từ một khung hình đã gán nhãn thật, vẽ lại trên nền
-trắng — không phải ảnh chụp thật):
-
-![OMS bbox diagram](images/oms_bbox_diagram.svg)
-
 ### Khung xương (skeleton) `body` — chỉ gán cho tài xế
 
 - **Chỉ gán tư thế `body` cho TÀI XẾ** (người ngồi ở vị trí lái xe) — **không gán pose cho hành
@@ -69,11 +64,14 @@ tượng bạn đang bắt tay hoặc đối mặt trực tiếp với người 
 Áp dụng quy tắc này cho **tất cả các điểm có "trái"/"phải"** trong 17 điểm (mắt, tai, vai, khuỷu
 tay, cổ tay, hông, đầu gối, mắt cá chân) — luôn theo cơ thể người được gán, không theo màn hình.
 
-**Sơ đồ minh hoạ** (toạ độ thật lấy từ một khung hình đã gán nhãn thật, vẽ lại trên nền trắng —
-không phải ảnh chụp thật, không có gương mặt/người thật nào trong hình): điểm đỏ là điểm số 5,
-chú ý nó nằm ở phía **bên trái của sơ đồ**:
+### Sơ đồ minh hoạ — cả một khung hình OMS đầy đủ
 
-![OMS body skeleton diagram](images/oms_body_diagram.svg)
+Toạ độ thật (bbox + skeleton + mask) lấy từ một khung hình đã gán nhãn thật, vẽ lại **trên nền
+trắng đúng kích thước khung hình gốc (1280×800px)** — không phải ảnh chụp thật, không có gương
+mặt/người thật nào trong hình. Điểm đỏ là điểm số 5 (tai phải người trong ảnh) — chú ý nó nằm ở
+phía **bên trái của sơ đồ**:
+
+![OMS full frame diagram](images/oms_full_frame_diagram.svg)
 
 ---
 
@@ -96,11 +94,14 @@ bức ảnh** — đúng như bạn nhìn thấy trên màn hình. Nhóm `mattra
 Nói ngắn gọn: cứ nhìn thẳng vào màn hình, nhãn tên gì thì đặt đúng vị trí đó trên ảnh — không cần
 suy luận thêm.
 
-**Sơ đồ minh hoạ** (toạ độ 50 điểm thật lấy từ một khung hình đã gán nhãn thật, vẽ lại trên nền
-trắng — không phải ảnh chụp thật, không có gương mặt người thật nào trong hình): chú ý nhóm
-`mattrai` (mắt trái) nằm bên **trái sơ đồ**, nhóm `matphai` (mắt phải) nằm bên **phải sơ đồ**:
+### Sơ đồ minh hoạ — cả một khung hình DMS đầy đủ
 
-![DMS skeleton diagram](images/dms_skeleton_diagram.svg)
+Toạ độ 50 điểm thật lấy từ một khung hình đã gán nhãn thật, vẽ lại **trên nền trắng đúng kích
+thước khung hình gốc (1072×1072px)** — không phải ảnh chụp thật, không có gương mặt người thật
+nào trong hình. Chú ý nhóm `mattrai` (mắt trái) nằm bên **trái sơ đồ**, nhóm `matphai` (mắt phải)
+nằm bên **phải sơ đồ**:
+
+![DMS full frame diagram](images/dms_full_frame_diagram.svg)
 
 ---
 
