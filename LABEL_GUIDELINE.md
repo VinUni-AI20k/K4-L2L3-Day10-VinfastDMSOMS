@@ -48,8 +48,8 @@ xuất hiện trong danh sách nhãn** (`infant`, `food`, `cigarette`, `bag`, `b
 
 ### Mask `seat_belt`
 
-- Tô đúng vùng dây an toàn nhìn thấy được trên người tài xế (và hành khách khác nếu nhìn rõ dây
-  an toàn của họ).
+- **Chỉ tô vùng dây an toàn của TÀI XẾ** — giống quy tắc `body`, không tô dây an toàn của hành
+  khách khác dù nhìn thấy rõ.
 
 ### ⚠️ Chiều gán cho OMS: theo góc nhìn của NGƯỜI TRONG ẢNH
 
