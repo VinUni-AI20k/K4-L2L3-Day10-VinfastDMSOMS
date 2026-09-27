@@ -1,8 +1,7 @@
 # LABEL_GUIDELINE.md — Quy tắc gán nhãn chi tiết cho DMS và OMS
 
-> Tài liệu này bổ sung cho [GUIDE.md](GUIDE.md) — đọc GUIDE.md trước để biết cách đăng nhập, tìm
-> task, lưu bài. Tài liệu này tập trung vào **quy tắc gán nhãn chính xác** cho từng lớp nhãn và
-> **chiều trái/phải** — phần dễ gây nhầm lẫn nhất giữa 2 task.
+> Tài liệu này tập trung vào **quy tắc gán nhãn chính xác** cho từng lớp nhãn và **chiều
+> trái/phải** — phần dễ gây nhầm lẫn nhất giữa 2 task.
 
 ## ⚠️ Lưu ý quan trọng nhất: DMS và OMS dùng CHIỀU TRÁI/PHẢI NGƯỢC NHAU
 
@@ -77,7 +76,7 @@ phía **bên trái của sơ đồ**:
 
 ## Phần 2 — Task DMS: 50 điểm landmark khuôn mặt
 
-7 nhóm khung xương, tổng 50 điểm (xem thêm [GUIDE.md](GUIDE.md) bước 3):
+7 nhóm khung xương, tổng 50 điểm:
 
 `longmaytrai` (lông mày trái), `longmayphai` (lông mày phải), `songmui` (sống mũi), `mattrai`
 (mắt trái), `matphai` (mắt phải), `moingoai` (viền môi ngoài), `moitrong` (viền môi trong).
